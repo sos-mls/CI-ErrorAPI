@@ -11,7 +11,7 @@ Simply run this command:
 
 You will be prompted for:
 
-* a password for the server
+* Password for the server
 * Username for MySQL
 * Password for MySQL
 * SendGrid Username
