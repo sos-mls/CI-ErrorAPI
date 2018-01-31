@@ -1,6 +1,6 @@
-# Deployment Scripts #
+# CI-ErrorAPI #
 
-To start deploying ErrorApi servers first create a running instance that is accessible by password and username.
+Basic deployment scripts for installing the ErrorAPI on to a server or updating the current ErrorAPI version on the server. To start deploying ErrorApi servers first create a running instance that is accessible by password and username.
 
 ### How to use install-on-server? ###
 
