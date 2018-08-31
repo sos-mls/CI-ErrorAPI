@@ -29,12 +29,12 @@ echo
 
 
 COMMANDS[0]="echo '${SSH_PASSWORD}' | sudo -S apt-get -y --force-yes install git"
-COMMANDS[1]="git clone https://bitbucket.org/scooblyboo/errorapi.git"
+COMMANDS[1]="git clone https://github.com/sos-mls/ErrorApi.git"
 COMMANDS[2]="sudo mkdir /var/www"
 COMMANDS[3]="sudo mkdir /var/www/error_api"
-COMMANDS[4]="sudo mv errorapi/src /var/www/error_api/src"
-COMMANDS[5]="mv errorapi/vagrant install"
-COMMANDS[6]="mv errorapi/sql sql"
+COMMANDS[4]="sudo mv ErrorApi/src /var/www/error_api/src"
+COMMANDS[5]="mv ErrorApi/vagrant install"
+COMMANDS[6]="mv ErrorApi/sql sql"
 # Configure Installtion process
 COMMANDS[7]="sed -i 's/\/home\/vagrant/\/root/g' install/install.sh"
 COMMANDS[8]="sed -i 's/default_username/${ERRORAPI_MYSQL_USERNAME}/g' install/helpers/config.txt"
