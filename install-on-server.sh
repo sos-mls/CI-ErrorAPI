@@ -45,7 +45,7 @@ COMMANDS[12]="sed -i 's/My_SendGrid_Key/${SEND_GRID_KEY}/g' install/helpers/conf
 COMMANDS[13]="sed -i 's/My_SendGrid_TemplateId/${SEND_GRID_TEMPLATE_ID}/g' install/helpers/config.txt"
 
 # Run Installation
-COMMANDS[14]="bash install/install.sh"
+COMMANDS[14]="sudo bash install/install.sh"
 COMMANDS[15]="sudo mkdir /var/www/error_api/src/errors"
 COMMANDS[16]="sudo chown www-data:www-data -R /var/www/error_api/src"
 
